@@ -76,7 +76,7 @@ while tr:
 		else:
 			dd += str(oo)
 
-	sleep(randint(15, 60))
+	sleep(randint(65, 70))
 	try:
 		vk.wall.post(owner_id=-68101640, friends_only=0, from_group=0, message=dd, close_comments=1)
 	except KeyboardInterrupt:
