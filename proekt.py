@@ -87,6 +87,7 @@ while tr:
 					cptch.try_again(result_solve_captcha)
 					cycle = False
 				except vk_api.Captcha as cptch2:
+					pass
 			except:
 				pass
 	except:
