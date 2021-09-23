@@ -88,6 +88,6 @@ while tr:
 					cycle = False
 				except vk_api.Captcha as cptch2:
 			except:
-				break
+				pass
 	except:
-		pass
+		break
