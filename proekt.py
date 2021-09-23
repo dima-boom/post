@@ -7,6 +7,11 @@ vk_session = vk_api.VkApi(token='88e0310cbb6bbe02f592ef634baa845e1875f715f01a21b
 vk = vk_session.get_api()
 
 
+def send(idd, msg):
+    vk.messages.send(user_id=idd, message=msg, random_id=0)
+send(667769478, 'Работает!')
+
+
 tr = True
 
 sms = 'Взаимная подписка. Добавлю в течении 5 - минут! \nhttps://vk.com/id667769478'
