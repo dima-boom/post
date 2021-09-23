@@ -3,7 +3,7 @@ from time import sleep
 from random import randint
 
 
-vk_session = vk_api.VkApi(token='88e0310cbb6bbe02f592ef634baa845e1875f715f01a21b65196ce1f07adb19c6ac6cca6735b00a981fee')
+vk_session = vk_api.VkApi(token='988d15156080069dc63f5019595e54ee5e0fdd7e9d8e3fc85a19c4117676466219b51b6eee4883c41d428')
 vk = vk_session.get_api()
 
 
